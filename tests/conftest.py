@@ -1,4 +1,6 @@
 import pytest
+import yaml
+
 from swagger_stub_api.app import app as _app
 
 
@@ -17,3 +19,11 @@ def app(request):
 @pytest.fixture
 def test_client(app):
     return app.test_client()
+
+
+@pytest.fixture
+def load_fixture():
+    def load_from_file(path):
+        with open("tests/fixtures/{}".format(path), "r") as f:
+            return yaml.load(f.read())
+    return load_from_file

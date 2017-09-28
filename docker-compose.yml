@@ -14,4 +14,4 @@ services:
       - 3000:3000
     volumes:
       - .:/code
-    command: /bin/bash -c "python3 swagger_stub_api/run.py"
+    command: /bin/bash -c "swagger-stub-api --swagger_path=swagger.yaml"
