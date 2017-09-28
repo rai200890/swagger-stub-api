@@ -3,8 +3,8 @@ from flask import Flask, g, request, current_app
 from flask_cors import CORS
 from werkzeug.local import LocalProxy
 
-from swagger_stub_api.mock.response import MockResponseBuilder
-from swagger_stub_api.renderers import render_response
+from .mock.response import MockResponseBuilder
+from .renderers import render_response
 
 
 def get_mock_response_builder():

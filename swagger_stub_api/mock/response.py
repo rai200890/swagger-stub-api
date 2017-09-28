@@ -1,7 +1,7 @@
 from random import choice
 
-from swagger_stub_api.mock.config import MockResponseConfig
-from swagger_stub_api.mock.parser import RequestParser
+from .config import MockResponseConfig
+from .parser import RequestParser
 
 
 class ResponseFetcher(object):
