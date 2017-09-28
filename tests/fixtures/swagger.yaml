@@ -235,7 +235,7 @@ paths:
           - write_pets
           - read_pets
     parameters:
-      - $ref: '#/parameters/pet_id'
+      - $ref: "#/parameters/pet_id"
   /stores/order:
     post:
       tags:
@@ -489,7 +489,7 @@ securityDefinitions:
 parameters:
   pet_id:
     name: petId
-    description: Pet's Unique identifier
+    description: Pet"s Unique identifier
     in: path
     type: string
     required: true
