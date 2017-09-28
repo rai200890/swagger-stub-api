@@ -1,7 +1,7 @@
 # swagger-stub-api
 
 [![Build Status](https://travis-ci.org/rai200890/swagger-stub-api.svg?branch=master)](https://travis-ci.org/rai200890/swagger-stub-api)
-
+[![PyPI version](https://badge.fury.io/py/swagger-stub-api.svg)](https://badge.fury.io/py/swagger-stub-api)
 
 Command-line application that spins up a [Flask](https://github.com/pallets/flask) app for mocking APIs from [Swagger](https://swagger.io/) specification, using [swagger-parser](https://github.com/Trax-air/swagger-parser).
 
@@ -9,7 +9,7 @@ Command-line application that spins up a [Flask](https://github.com/pallets/flas
 ## Installation
 
 ```
-  pip install git+https://github.com/rai200890/swagger-stub-api
+  pip install swagger-stub-api
 ```
 
 ## Usage
