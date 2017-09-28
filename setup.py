@@ -1,6 +1,6 @@
 from setuptools import setup
 
-version = "0.1.0"
+version = "0.1.1"
 
 install_requires = [
     "Flask>=0.11",
