@@ -1,6 +1,6 @@
 from setuptools import setup
 
-version = "0.1.2"
+version = "0.1.3"
 
 install_requires = [
     "Flask>=0.11",
@@ -32,6 +32,6 @@ setup(name="swagger-stub-api",
       test_requires=test_requires,
       platforms=["unix", "linux", "osx", "cygwin", "win32"],
       package_dir={"swagger_stub_api": "swagger_stub_api"},
-      packages=["swagger_stub_api"],
+      packages=["swagger_stub_api", "swagger_stub_api.mock"],
       entry_points={
           "console_scripts": ["swagger-stub-api = swagger_stub_api.command:main"]})
