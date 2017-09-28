@@ -1,21 +1,22 @@
 from setuptools import setup
 
-version = "0.1.0"
+version = "0.1.1"
 
 install_requires = [
-    "Flask>=0.11.1",
+    "Flask>=0.11",
     "python-decouple>=3.1",
-    "swagger-parser>=1.0.0",
-    "Flask-Cors>=3.0.3",
+    "swagger-parser>=1.0",
+    "Flask-Cors>=3.0",
     "click>=6.7",
-    "pyaml>=17.8.0",
-    "requests>=2.18.4"]
+    "pyaml>=17.8",
+    "requests>=2.18"]
 
 test_requires = [
-    "responses>=0.8.0",
-    "pytest>=3.0.2",
-    "pytest-cov>=2.2.1",
-    "pytest-mock>=1.2"]
+    "responses>=0.8",
+    "pytest>=3.0",
+    "pytest-cov>=2.2",
+    "pytest-mock>=1.2",
+    "tox>=2.8"]
 
 setup(name="swagger-stub-api",
       version=version,

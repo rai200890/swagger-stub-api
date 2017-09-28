@@ -1,6 +1,6 @@
 from swagger_parser import SwaggerParser
 
-from swagger_stub_api.mock.utils import load_dict_from_path
+from .utils import load_dict_from_path
 
 
 class MockResponseConfig(object):
