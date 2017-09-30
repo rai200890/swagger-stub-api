@@ -4,5 +4,6 @@ swagger-parser==1.0.0
 Flask-Cors==3.0.3
 click==6.7
 pyaml==17.8.0
-requests==2.18.4 
+requests==2.18.4
+flex==6.11.0
 -e .

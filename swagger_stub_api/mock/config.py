@@ -1,6 +1,6 @@
 from swagger_parser import SwaggerParser
 
-from .utils import load_dict_from_path
+from .utils import load_and_validate_swagger_file
 
 
 class MockResponseConfig(object):
@@ -11,5 +11,5 @@ class MockResponseConfig(object):
 
     @property
     def swagger_parser(self):
-        swagger_dict = load_dict_from_path(self.swagger_path)
+        swagger_dict = load_and_validate_swagger_file(self.swagger_path)
         return SwaggerParser(swagger_dict=swagger_dict)

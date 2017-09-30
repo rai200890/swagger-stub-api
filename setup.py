@@ -1,15 +1,16 @@
 from setuptools import setup, find_packages
 
-version = "0.1.4"
+version = "0.2.0"
 
 install_requires = [
-    "Flask>=0.11",
+    "Flask>=0.12",
     "python-decouple>=3.1",
     "swagger-parser>=1.0",
     "Flask-Cors>=3.0",
     "click>=6.7",
     "pyaml>=17.8",
-    "requests>=2.18"]
+    "requests>=2.18",
+    "flex>=6.11.0"]
 
 test_requires = [
     "responses>=0.8",
